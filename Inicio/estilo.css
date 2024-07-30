@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans';
+}
+
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.encabezado-img{
+	background-image: url(img/fondo.jpg);
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+
+.titulos{
+                 text-align: center;
+                 Padding-top: 2em;
+                 font-size:30px;
+                 
+                }
+.contenido{
+                 text-align: justify;
+                 font-size:20px;
+                 margin-left: 60px;
+                 margin-right: 60px;
+                 
+                }
+.zona2{
+			
+			width: 400px;
+			height: 500px;
+                        margin-top: 150px;
+                        margin-left: 60px;
+                        background-color:#6AF7EA;
+                  
+		}
+.zona3{
+			position: relative;
+			top: -500px;
+			left: 550px;
+                        width: 400px;
+			height: 500px;
+                        background-color:#6AF7EA;
+                  
+		}
+
+.zona4{
+			position: relative;
+			top: -1000px;
+			left: 1050px;
+                        width: 400px;
+			height: 500px;
+                        background-color:#6AF7EA;
+                  
+		}
+.fondo{
+                 text-align: center;
+                 Padding-top: 4em;
+                 font-size:30px;
+
+                }
+
+
+.zona5{
+			
+			position: relative;
+			top: -950px;
+			left: 60px;
+                        width: 400px;
+			height: 500px;
+                        background-color:#6AF7EA;
+                  
+		}
+.zona6{
+			position: relative;
+			top: -1450px;
+			left: 550px;
+                        width: 400px;
+			height: 500px;
+                        background-color:#6AF7EA;
+                  
+		}
+
+.zona7{
+			position: relative;
+			top: -1950px;
+			left: 1050px;
+                        width: 400px;
+			height: 500px;
+                        background-color:#6AF7EA;
+                  
+		}
+		
